@@ -1,8 +1,6 @@
 # AI_AFM
 Repository for implementing AI in Atomic Force Microscopy (AFM)
 
-<em>**Paper accepted in ???? (???? 2022)**</em>
-
 
 ## Sample plots
 <p align="center">
@@ -135,15 +133,15 @@ We would like to acknowledge Prof. Peter Hoffmann (Department of Physics, Wayne 
 ## Citation
 Please cite our paper in your publications if it helps your research:
 
-	@article{article,
-	  title={title},
-	  author={author},
-	  journal={journal},
-	  year={2022}
+	@article{waite_tan_saha_sarkar_sarkar_2023,
+	  title={Few-shot deep learning for AFM Force curve characterization of single-molecule interactions},
+	  author={Waite, Joshua R. and Tan, Sin Yong and Saha, Homagni and Sarkar, Soumik and Sarkar, Anwesha},
+	  journal={Patterns},
+	  year={2023}
 	}
 
 ## Paper Links
-[Paper Title](paper_link)
+[Few-shot deep learning for AFM force curve characterization of single-molecule interactions](https://doi.org/10.1016/j.patter.2022.100672)
 
 
 
