@@ -6,7 +6,6 @@ Pillow==9.1.0
 sam-pytorch==0.0.1
 scikit-learn==1.0.2
 scipy==1.8.0
-sklearn==0.0
 torch==1.11.0
 torchaudio==0.11.0
 torchvision==0.12.0
