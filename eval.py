@@ -126,7 +126,7 @@ if __name__ == '__main__':
 	parser.add_argument('-v','--verbosity', type=int, default=1, help='Verbosity. 0: No output, 1: Epoch-level output, 2: Batch-level output')
 	parser.add_argument('-g','--gpu', type=int, default=0, help='GPU id')
 	parser.add_argument('-ep','--epochs', type=int, default=10, help='Number of training epochs')
-	parser.add_argument('-m','--model',type=str,default='toy', choices=['toy', 'toyL', 'toyS', 'toyS2', 'toyS3', 'toyXS' 'cerb', 'cerbL', 'cerbXL', 'convo1D', 'convo1DS', 'convo1DDrp', 'convo1DDrp2', 'convo1DS2', 'convo1D2', 'convo1D3'], help="Choices of models (default='toy')")
+	parser.add_argument('-m','--model',type=str,default='toy', choices=['toy', 'toyL', 'toyS', 'toyS2', 'toyS3', 'toyXS', 'cerb', 'cerbL', 'cerbXL', 'convo1D', 'convo1DS', 'convo1DDrp', 'convo1DDrp2', 'convo1DS2', 'convo1D2', 'convo1D3'], help="Choices of models (default='toy')")
 	parser.add_argument('-mt','--model_type',type=str,default='siamese', choices=['siamese', 'triplet'], help="Model type (default='siamese')")
 	parser.add_argument('--lr', type=float, default=0.01, help='Learning rate (default: 0.01)')
 	parser.add_argument('-bs','--batch_size', type=int, default=16, help='Training batch size (default = 16)')
