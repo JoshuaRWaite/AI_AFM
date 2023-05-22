@@ -132,7 +132,7 @@ if __name__ == '__main__':
 	parser.add_argument('-bs','--batch_size', type=int, default=16, help='Training batch size (default = 16)')
 	parser.add_argument('-mod','--model_out_dim', type=int, default=10, help='Model output dim (default = 10)')
 	parser.add_argument('-log','--log_interval', type=int, default=10, help='Saving model at every specified interval (default = 10)')
-	parser.add_argument('-winsz','--winsz', type=int, default=13, help='AFM data processing window size (default = 5)')
+	parser.add_argument('-winsz','--winsz', type=int, default=5, help='AFM data processing window size (default = 5)')
 	parser.add_argument('-k','--top_k', type=int, default=1, help='Top-k majority for classification (default=1)')
 	parser.add_argument('-s','--seed', type=int, default=0, help='Random seed (default=0)')
 	parser.add_argument('-up','--unlabeled_percent', type=float, default=0.0, help='Percent of unlabeled data with range of [0.0,1.0) (default=0.0)')

@@ -107,6 +107,8 @@ class AFM(torch.utils.data.Dataset):
 
 		# New preprocessing block
 		self.data = np.diff(self.data,axis=0)
+		self.data = pd.DataFrame(self.data).rolling(window=self.winsz).mean().dropna()
+		self.data = pd.DataFrame(self.data).rolling(window=self.winsz).mean().dropna()
 		self.data = pd.DataFrame(self.data).rolling(window=self.winsz).mean().dropna().values
 		self.data = np.transpose(self.data)
 
